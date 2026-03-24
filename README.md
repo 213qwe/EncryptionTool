@@ -22,6 +22,29 @@
 | 文件导入 | 点击【Browse】按钮选择待发送的文件（⚠️仅支持英文路径） |
 | 其他功能 | 其余按钮、编辑框的功能与String Mode完全一致 |
 
+## 开发环境配置（Visual Studio 2022）
+### 1. OpenSSL 下载
+从 https://slproweb.com/products/Win32OpenSSL.html 下载 OpenSSL-Win64 版本。
+
+### 2. 项目创建与文件准备
+- 打开 Visual Studio 2022，新建空项目；
+- 将 main.c 文件复制到该空项目中。
+
+### 3. 编译模式选择
+选择 Release + x64 模式进行编译配置。
+
+### 4. 系统配置（项目属性）
+右键项目 → 属性 → 配置属性，依次完成以下配置：
+#### C/C++ 配置
+- 附加包含目录：添加 OpenSSL 的 include 路径（如 D:\OpenSSL-Win64\include）；
+- 预处理器：添加 `OPENSSL_NO_ASM WIN32_LEAN_AND_MEAN NOMINMAX`；
+- 高级：编译为 → 选择 “编译为 C++ 代码 (/TP) ”。
+
+#### 链接器 配置
+- 附加库目录：添加 OpenSSL 的 lib 路径（如 D:\OpenSSL-Win64\lib）；
+- 输入 → 附加依赖项：添加 `libcrypto.lib Crypt32.lib comctl32.lib comdlg32.lib`；
+- 系统：设置子系统为：窗口 (/SUBSYSTEM:WINDOWS)。
+
 ## 完整操作流程
 ### 前提
 需为通信双方（A、B）分别生成并保存公私钥对
