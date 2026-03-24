@@ -5,7 +5,16 @@
 <img width="6735" height="3920" alt="task" src="https://github.com/user-attachments/assets/963fdaef-f9f3-44c6-af14-d405da1186eb" />
 
 ## 项目成果示意图
-<img width="1253" height="964" alt="project" src="https://github.com/user-attachments/assets/93dbb1b6-ae42-459a-9f38-4ffdc1640038" />
+<table style="width:100%; border:none; border-spacing:16px 0;">
+  <tr>
+    <td style="border:none; padding:0 8px;">
+      <img src="https://github.com/user-attachments/assets/9382b434-f186-431c-991e-477f737856b2" alt="字符串模式示意图" style="width:100%;">
+    </td>
+    <td style="border:none; padding:0 8px;">
+      <img src="https://github.com/user-attachments/assets/17a7227d-efaf-420d-b2e8-871d99f4cf57" alt="文件模式示意图" style="width:100%;">
+    </td>
+  </tr>
+</table>
 
 ## 模式功能说明
 ### 1. String Mode（字符串模式）
