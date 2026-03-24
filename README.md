@@ -2,7 +2,8 @@
 该工具支持String Mode（字符串模式）和File Mode（文件模式）两种运行模式，集成了自主实现的RSA、AES、DES、MD5、SHA256等加密/哈希算法（无外部包依赖），所有中间过程和中间值均可通过下方output窗口查看。
 
 ## 项目任务示意图
-![加密通信任务流程图]([https://github.com/213qwe/EncryptionTool/](https://github.com/213qwe/EncryptionTool/blob/main/task.png)
+<img width="6735" height="3920" alt="task" src="https://github.com/user-attachments/assets/963fdaef-f9f3-44c6-af14-d405da1186eb" />
+
 
 ## 模式功能说明
 ### 1. String Mode（字符串模式）
