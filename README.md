@@ -4,6 +4,8 @@
 ## 项目任务示意图
 <img width="6735" height="3920" alt="task" src="https://github.com/user-attachments/assets/963fdaef-f9f3-44c6-af14-d405da1186eb" />
 
+## 项目成果示意图
+<img width="1253" height="964" alt="project" src="https://github.com/user-attachments/assets/93dbb1b6-ae42-459a-9f38-4ffdc1640038" />
 
 ## 模式功能说明
 ### 1. String Mode（字符串模式）
