@@ -37,12 +37,12 @@
 | 文件导入 | 点击【Browse】按钮选择待发送的文件（⚠️仅支持英文路径） |
 | 其他功能 | 其余按钮、编辑框的功能与String Mode完全一致 |
 
-## 开发环境配置（Visual Studio 2022）
+## 开发环境配置（Visual Studio）
 ### 1. OpenSSL 下载
 从 https://slproweb.com/products/Win32OpenSSL.html 下载 OpenSSL-Win64 版本。
 
 ### 2. 项目创建与文件准备
-- 打开 Visual Studio 2022，新建空项目；
+- 打开 Visual Studio 2019/2022，新建空项目；
 - 将 main.c 文件复制到该空项目中。
 
 ### 3. 编译模式选择
